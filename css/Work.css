@@ -9,6 +9,11 @@
 	list-style: none;
 }
 
+.parent {
+  display: flex;
+  user-select: none; /* запрещает выделение текста */
+}
+
 .bood {
 	flex-basis: 30%;
 	padding: 10px;
