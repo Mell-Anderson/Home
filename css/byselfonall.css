@@ -1,0 +1,42 @@
+body {
+	background: #FFFDD0;
+}
+
+.tab {
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFFDDC;
+	border-bottom: 1px solid #ccc;
+	border-block-style: double;
+	font-size: unset;
+	margin: inherit;
+	margin-block: revert;
+}
+
+/* Стили для вкладок */
+.tab li {
+  float: left;
+  border-right: 1px solid #ccc;
+}
+
+.tab li:last-child {
+  border-right: none;
+}
+
+/* Стили для ссылок внутри вкладок */
+.tab li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-top: 2px solid transparent;
+}
+
+/* Стили для активной вкладки */
+.tab li.active a {
+  background-color: white;
+  color: blue;
+  border-top: 2px solid blue;
+}
