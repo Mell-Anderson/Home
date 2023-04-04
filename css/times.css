@@ -4,7 +4,6 @@ caption {
 }
 
 table {
-  background-color: black;
   color: white;
   margin-bottom: 20px;
   background-color: #A6A144;
@@ -18,17 +17,17 @@ td {
   text-align: center;
 }
 
-#space {
+.space {
   width: 259px;
   height: 21px;
 }
 
-#time {
+.time {
   width: 184px;
   height: 42px;
 }
 
-#num {
+.num {
   width: 65px;
   height: 42px;
 }

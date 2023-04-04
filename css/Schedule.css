@@ -3,7 +3,6 @@ caption {
   background-color: #BFBEA5;
 }
 table {
-  background-color: black;
   color: white;
   margin-bottom: 20px;
   background-color: #A6A144;
@@ -17,4 +16,9 @@ th {
 td {
   text-align: center;
   height: 42px;
+}
+
+.delta {
+  color: white;
+  text-decoration: none;
 }
