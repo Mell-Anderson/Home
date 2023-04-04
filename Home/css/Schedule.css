@@ -1,0 +1,20 @@
+caption {
+  color: yellow;
+  background-color: #BFBEA5;
+}
+table {
+  background-color: black;
+  color: white;
+  margin-bottom: 20px;
+  background-color: #A6A144;
+}
+
+th {
+  background-color: #BFBEA5;
+  width: 210px;
+  height: 21px;
+}
+td {
+  text-align: center;
+  height: 42px;
+}
