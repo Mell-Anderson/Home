@@ -1,13 +1,3 @@
-caption {
-  color: yellow;
-  background-color: #BFBEA5;
-}
-table {
-  color: white;
-  margin-bottom: 20px;
-  background-color: #A6A144;
-}
-
 th {
   background-color: #BFBEA5;
   width: 210px;
@@ -21,4 +11,5 @@ td {
 .delta {
   color: white;
   text-decoration: none;
+  display: block;
 }

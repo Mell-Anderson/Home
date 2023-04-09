@@ -3,16 +3,30 @@ body {
   user-select: none;
 }
 
+table {
+  color: white;
+  margin-bottom: 20px;
+  background-color: #A6A144;
+  border: double;
+}
+
+caption {
+  color: yellow;
+  background-color: #BFBEA5;
+  border: double;
+}
+
 .tab {
 	list-style: none;
 	padding: 0;
-	overflow: hidden;
+	overflow: auto;
 	background-color: #FFFDDC;
 	border-bottom: 1px solid #ccc;
 	border-block-style: double;
 	font-size: unset;
 	margin: inherit;
 	margin-block: revert;
+  min-width: max-content;
 }
 
 /* Стили для вкладок */
